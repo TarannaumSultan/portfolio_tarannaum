@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 90px;
 }
 
 .orange-color {
@@ -14,11 +14,13 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 .half-width img {
@@ -39,4 +41,11 @@ section {
     background-image: url(images/Brown\ Aesthetic\ Group\ Project\ Presentation\ \(1\).png);
     background-repeat: no-repeat;
     background-size: 85%;
+}
+
+.about {
+    background-image: url(images/_Inglés_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 57%;
 }
