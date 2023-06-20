@@ -8,11 +8,19 @@ h1 {
     font-size: 90px;
 }
 
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 .orange-color {
     color: rgb(255, 140, 0);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -48,4 +56,25 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 57%;
+}
+
+.project-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px rgb(255, 162, 0);
+    border-left: 7px solid tomato;
+}
+
+.projects {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 6%;
+}
+
+footer p {
+    text-align: center;
 }
